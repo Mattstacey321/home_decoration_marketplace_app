@@ -12,74 +12,45 @@ class ShippingView extends StatelessWidget {
       child: Scaffold(
         appBar: CustomAppBar(
           childs: [],
-          homeIcon: Icon(EvaIcons.close),
           onTapBack: () => Get.back(),
+          homeIcon: Icon(EvaIcons.close),
         ),
-        body: LayoutBuilder(
-          builder: (context, constraints) => SingleChildScrollView(
-            child: ConstrainedBox(
-              constraints: BoxConstraints(minHeight: constraints.maxHeight),
-              child: Container(
-                height: Get.height - 100,
-                width: Get.width,
+        body: Column(
+          children: <Widget>[
+            Expanded(
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
                 child: Column(
-                  children: [
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
                     Expanded(
-                      flex: 3,
-                      child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text(
-                              "CONTACT DETAILS",
-                              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey),
-                            ),
-                            InputContainer(title: "First Name"),
-                            InputContainer(title: "Last Name"),
-                            InputContainer(title: "Email"),
-                            InputContainer(title: "Phone")
-                          ],
-                        ),
-                      ),
-                    ),
-                    Divider(thickness: 1),
-                    Expanded(
-                      flex: 3,
-                      child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text(
-                              "SHIPPING ADDRESS",
-                              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.grey),
-                            ),
-                            InputContainer(title: "Country"),
-                            InputContainer(title: "State"),
-                            InputContainer(title: "City"),
-                            InputContainer(title: "Zip Code")
-                          ],
-                        ),
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: CustomButton(
-                        height: 50,
-                        width: Get.width,
-                        onTap: () {},
-                        radius: 0,
-                        backgroundColor: AppColors.mainColor,
-                        childs: [
-                          Icon(EvaIcons.saveOutline, color: Colors.white),
-                          SizedBox(width: 10),
+                      flex: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
                           Text(
-                            "Save",
-                            style: TextStyle(color: Colors.white),
+                            "SHIPPING TO:",
+                            style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                          ),
+                          GestureDetector(
+                            onTap: () {},
+                            child: Text(
+                              "Edit",
+                              style: TextStyle(color: Colors.blue),
+                            ),
                           )
+                        ],
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Expanded(
+                      flex: 2,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Mary R Ashby"),
+                          Text("4864  Jerry Toth Drive, US"),
                         ],
                       ),
                     ),
@@ -87,37 +58,152 @@ class ShippingView extends StatelessWidget {
                 ),
               ),
             ),
-          ),
+            Divider(thickness: 1),
+            Expanded(
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Column(
+                  children: <Widget>[
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "PAYMENT DETAILS:",
+                          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                        ),
+                        GestureDetector(
+                          onTap: () {},
+                          child: Text(
+                            "Edit",
+                            style: TextStyle(color: Colors.blue),
+                          ),
+                        )
+                      ],
+                    ),
+                    SizedBox(height: 10),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        // credit card serial number
+                        Text("XXX-XXXX-XXXX-1098"),
+                        Icon(EvaIcons.creditCardOutline)
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Divider(thickness: 1),
+            Expanded(
+              flex: 2,
+              child: Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: <Widget>[
+                    Row(
+                      children: [
+                        Text(
+                          "DEVIVERY:",
+                          style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 10),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        DeliverySelection(
+                            title: "Standart (14 days)",
+                            description: r'$' "10.00",
+                            isSelected: false),
+                        DeliverySelection(
+                            title: "Express (7 days)",
+                            description: r'+$' "20.00",
+                            isSelected: false),
+                        DeliverySelection(
+                            title: "Premium (3 days)",
+                            description: r'$' "30.00",
+                            isSelected: true),
+                      ],
+                    )
+                  ],
+                ),
+              ),
+            ),
+            Divider(thickness: 1),
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: CustomButton(
+                height: 50,
+                width: Get.width,
+                onTap: () {
+                  Get.back();
+                },
+                radius: 0,
+                backgroundColor: AppColors.mainColor,
+                childs: [
+                  Icon(EvaIcons.saveOutline, color: Colors.white),
+                  SizedBox(width: 10),
+                  Text(
+                    "Save",
+                    style: TextStyle(color: Colors.white),
+                  )
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
 }
 
-class InputContainer extends StatelessWidget {
+class DeliverySelection extends StatelessWidget {
   final String title;
-  InputContainer({this.title});
+  final String description;
+  final bool isSelected;
+  DeliverySelection({this.isSelected = false, this.title, this.description});
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: 30,
       width: Get.width,
-      padding: EdgeInsets.symmetric(horizontal: 10),
-      decoration: BoxDecoration(border: Border.all(color: Colors.grey.withOpacity(0.2), width: 2)),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
+          isSelected
+              ? Container(
+                  height: 12,
+                  width: 12,
+                  decoration: BoxDecoration(color: AppColors.mainColor, shape: BoxShape.circle),
+                )
+              : Container(
+                  height: 12,
+                  width: 12,
+                  decoration:
+                      BoxDecoration(color: Colors.grey.withOpacity(0.5), shape: BoxShape.circle),
+                ),
+          SizedBox(width: 10),
           Expanded(
-            flex: 4,
-            child: Text(
-              title,
-              style: TextStyle(color: Colors.grey),
-            ),
-          ),
-          Expanded(
-            flex: 6,
-            child: TextField(
-              decoration: InputDecoration.collapsed(hintText: ""),
-              textAlign: TextAlign.right,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  title,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: isSelected ? Colors.black : Colors.grey.withOpacity(0.5),
+                  ),
+                ),
+                Text(
+                  description,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: isSelected ? Colors.black : Colors.grey.withOpacity(0.5),
+                  ),
+                )
+              ],
             ),
           ),
         ],

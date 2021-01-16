@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mattstacey.home_decoration_marketplace">
    <application
-        android:label="home_decoration_marketplace"
+        android:label="Home Decoration Marketplace"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

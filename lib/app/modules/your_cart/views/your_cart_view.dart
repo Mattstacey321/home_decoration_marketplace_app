@@ -22,7 +22,7 @@ class YourCartView extends GetView<YourCartController> {
           Row(
             children: [
               Text(
-                "My Bag",
+                "My Cart",
                 style: AppStyles.myCartTitle,
               ),
               SizedBox(width: 10),
@@ -79,7 +79,7 @@ class YourCartView extends GetView<YourCartController> {
           SizedBox(height: 20),
           CustomButton(
             onTap: () {
-              Get.toNamed(Routes.CHECK_OUT_CART );
+              Get.toNamed(Routes.CHECK_OUT_CART);
             },
             height: 50,
             width: Get.width,

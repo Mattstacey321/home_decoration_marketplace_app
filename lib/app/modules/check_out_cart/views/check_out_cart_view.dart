@@ -6,6 +6,7 @@ import 'package:home_decoration_marketplace/app/global_widgets/custom_app_bar.da
 import 'package:home_decoration_marketplace/app/global_widgets/custom_button.dart';
 
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/controllers/check_out_cart_controller.dart';
+import 'package:home_decoration_marketplace/app/modules/check_out_cart/widgets/discount_view.dart';
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/widgets/produc_itemt_preview.dart';
 import 'package:home_decoration_marketplace/app/routes/app_pages.dart';
 import 'package:home_decoration_marketplace/app/theme/app_color.dart';
@@ -20,6 +21,7 @@ class CheckOutCartView extends StatelessWidget {
       id: GetIdKey.CHECKOUTCART,
       builder: (controller) {
         return Scaffold(
+            resizeToAvoidBottomPadding: false,
             appBar: CustomAppBar(
               childs: [],
               onTapBack: () => Get.back(),
@@ -102,7 +104,16 @@ class CheckOutCartView extends StatelessWidget {
                           SizedBox(height: 20),
                           InkWell(
                             onTap: () {
-                              Get.toNamed(Routes.DISCOUNT);
+                              Get.bottomSheet(
+                                DiscountView(),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.only(
+                                    topLeft: Radius.circular(10),
+                                    topRight: Radius.circular(10),
+                                  ),
+                                ),
+                                backgroundColor: Colors.white,
+                              );
                             },
                             borderRadius: BorderRadius.circular(10),
                             child: Container(

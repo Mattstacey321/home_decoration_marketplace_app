@@ -1,8 +1,6 @@
 import 'package:get/get.dart';
-
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/bindings/check_out_cart_binding.dart';
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/views/check_out_cart_view.dart';
-import 'package:home_decoration_marketplace/app/modules/check_out_cart/widgets/discount_view.dart';
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/widgets/payment_success.dart';
 import 'package:home_decoration_marketplace/app/modules/check_out_cart/widgets/shipping_view.dart';
 import 'package:home_decoration_marketplace/app/modules/home/bindings/home_binding.dart';
@@ -39,10 +37,6 @@ class AppPages {
     GetPage(
       name: _Paths.SHIPPING,
       page: () => ShippingView(),
-    ),
-    GetPage(
-      name: _Paths.DISCOUNT,
-      page: () => DiscountView(),
     ),
     GetPage(
       name: _Paths.PAYMENTSUCCESS,
