@@ -1,0 +1,267 @@
+[
+  {
+    "sku": "#IK532228",
+    "name": "Sjöpenna Table Lamp with Led Bulb",
+    "type": "light-decor",
+    "image": "assets/light_decor/1.jpg",
+    "colors": ["white", "black"],
+    "price": 24.3,
+    "rate": 4.7,
+    "totalReview": 72,
+    "details": "Creates a soft, cozy mood light in your room. LED light bulb included. May be completed with other lamps in the same series."
+  },
+  {
+    "sku": "#SO3769324",
+    "name": "Silver Orchid Crystal Bling Shade 27.5-inch Table Lamp",
+    "type": "light-decor",
+    "image": "assets/light_decor/2.jpg",
+    "colors": ["white", "black"],
+    "price": 79.64,
+    "rate": 4.8,
+    "totalReview": 63,
+    "details": "Add glam elegance to your space with this stunning table tamp. The metal lamp features an hourglass pedestal base, available in your choice of finishes for a breathtaking display. A metal, trellis-style drum shade accented with crystals beautifully refracts the light from the single bulb, completing the chic aesthetic of this beautiful lamp."
+  },
+  {
+    "sku": "#CZ3511289",
+    "name": "CO-Z 18.3-inch Gold Desk Lamp with Marble Base and Adjustable Metal Shade",
+    "type": "light-decor",
+    "image": "assets/light_decor/3.jpg",
+    "colors": ["gold"],
+    "price": 62.09,
+    "rate": 4.6,
+    "totalReview": 72,
+    "details": "Place this antique brass metal finish desk lamp on a table in your home for a great retro look. This reading lamp features an antique brass finish and a sleek white marble base, which will make a wonderful addition to any desk or work area. The warm antique brass finish is highlighted in the adjustable shade. The shade can be pivoted to add light where it is needed most."
+  },
+  {
+    "sku": "#ST26819081",
+    "name": "Carbon Loft Tirith Industrial Farmhouse Table Lamp with Pulley System",
+    "type": "light-decor",
+    "image": "assets/light_decor/4.jpg",
+    "colors": ["black", "bronze"],
+    "price": 89.24,
+    "rate": 4.5,
+    "totalReview": 82,
+    "details": "This unique and eye-catching industrial table lamp is made to be the center of attention on your bedroom nightstand, bedroom, living room, dining, or even your study and office. It's a conversational modern twist on a traditional and classic design."
+  },
+  {
+    "sku": "#MM33122477",
+    "name": "Metal Metallic Leaves Wall",
+    "type": "wall-decor",
+    "image": "assets/wall_decor/1.jpg",
+    "colors": ["gold"],
+    "price": 73.09,
+    "rate": 4.6,
+    "totalReview": 127,
+    "details": "Decorate the walls of your home with this metallic leaves wall decor set. These wall plaques are crafted of metal with antique gold, silver and black finishes. The leaf design adds a trendy natural update to any room. The impressive size of this set will artfully fill your wall with gorgeous tones of antique gold, silver and black. This wall decor is designed to be hung on the wall."
+  },
+  {
+    "sku": "#BI249172",
+    "name": "Buckthorn Industrial Circular Hanging Wall Shelf",
+    "type": "wall-decor",
+    "image": "assets/wall_decor/2.jpg",
+    "colors": ["grey"],
+    "price": 157.24,
+    "rate": 4.7,
+    "totalReview": 45,
+    "details": "Add to your home's rustic or industrial decor with this unique wall shelf. From its convenient wood shelves to its charming iron frame, this wall decoration offers precise lines contrasted by exquisite curves to create a masterpiece for your interior space. This wall shelf is perfect for displaying cherished photos and lovely potted plants."
+  },
+  {
+    "sku": "#DB24691203",
+    "name": "Danya B. Set of 2 Silhouette Shelves-White",
+    "type": "wall-decor",
+    "image":"assets/wall_decor/3.jpeg",
+    "colors": ["grey"],
+    "price": 35.95,
+    "rate": 4.7,
+    "totalReview": 96,
+    "details": "Decorate a bare wall with this set of two Danya B. silhouette shelves. The small perches are perfect for vases, picture frames, or other display pieces, and the crisp, white color brings a fresh look to your space. This set of accent shelves comes with easy-to-follow instructions and mouting hardware for hassle-free installation."
+  },
+  {
+    "sku": "#FP23942619",
+    "name": "Furniture Pipeline Ames Farmhouse Industrial Decorative Wall Shelf",
+    "type": "wall-decor",
+    "image": "assets/wall_decor/4.jpg",
+    "colors": [],
+    "price": 33.99,
+    "rate": 4.6,
+    "totalReview": 33,
+    "details": "Display your photo frames, vases, and other home accents on this decorative wall shelf by Furniture Pipeline. Made of solid wood and aircraft-grade aluminum pipes, this wall shelf combines durability with a striking industrial look. Choose from three finish options to coordinate with your decor. Installation hardware is included to ease mounting."
+  },
+  {
+    "sku": "#CC34046090",
+    "name": "Carson Carrington Lacktorp Modern Wall Shelf",
+    "type": "decorative-accessories",
+    "image": "assets/decorative_accessories/shelf_1.png",
+    "colors": [],
+    "price": 37.59,
+    "rate": 4.3,
+    "totalReview": 54,
+    "details": "Improve your storage and get a stylish accent with this set of two modern wall shelves. Both are crafted from metal and feature an antique brass finish. Their minimal yet chic style will draw attention to whatever you place on them. Thanks to their simple design, they're ideal for a mid-century modern, modern, or even farmhouse space."
+  },
+  {
+    "sku": "#ID34715886",
+    "name": "Intersecting Decorative Color Wall Mount Shelf",
+    "type": "decorative-accessories",
+    "image": "assets/decorative_accessories/shelf_2.png",
+    "colors": ["black", "white"],
+    "price": 36.44,
+    "rate": 4.5,
+    "totalReview": 20,
+    "details": "This Shelf Is Made Of 4 Different Squares That Are Attached  Together To Form One Large Piece.And You Can Put Many Things On It, Such As  Candles, Plants, Pictures, Books,Vases, Collectibles, And Much More. Moreover,  It Would Be A Great Decoration To Your Living Space."
+  },
+  {
+    "sku": "#EG26711300",
+    "name": "Efharis Gold 3-piece Wall",
+    "type": "decorative-accessories",
+    "image":"assets/decorative_accessories/shelf_3.jpg",
+    "price": 78.99,
+    "colors": ["gold"],
+    "rate": 4.7,
+    "totalReview": 45,
+    "details": "Bring artistic style to your decor with this Efharis wall shelf set. The set includes three shelves in multiple sizes, crafted with open, three-dimensional metal frames in a goldtone finish, and natural wood bottoms. The shelves can be grouped together, or spaced around your room to display vases, books, or planters. "
+  },
+  {
+    "sku": "#CC34046090",
+    "name": "Modern Tropical Framed",
+    "type": "art",
+    "image": "assets/decorative_accessories/art_1.jpg",
+    "colors": ["black"],
+    "price": 169.49,
+    "rate": 4.3,
+    "totalReview": 54,
+    "details": "Designed to be hung together, this hand-curated collection of art provides the perfect focal point or unifying feature to bring to life any room with style."
+  },
+  {
+    "sku": "#MG34724204",
+    "name": "Modern Geometric Abstract Framed Art Set",
+    "type": "art",
+    "image": "assets/decorative_accessories/art_2.jpg",
+    "colors": ["black"],
+    "price": 169.99,
+    "rate": 4.5,
+    "totalReview": 54,
+    "details": "Designed to be hung together, this hand-curated collection of art provides the perfect focal point or unifying feature to bring to life any room with style. "
+  },
+  {
+    "sku": "#MG34724205",
+    "name": "Soft Feathers -2 Piece Set",
+    "type": "art",
+    "image": "assets/decorative_accessories/art_3.jpg",
+    "colors": [],
+    "price": 75.99,
+    "rate": 4.6,
+    "totalReview": 72,
+    "details":"Walls looking a little bare? Plain? Drab? A budget-friendly piece of wall art is just the thing to fill in the gaps and spruce up your walls. Take this piece of framed wall art, for example, arriving in a two piece set, it showcases a botanical motif with a leaf design on a white background and is meant to be hung vertically. Made in the USA, this piece is crafted by printing on paper, surrounded by a wooden frame. Wall mounting hardware is included. "
+    
+  },
+  {
+    "sku": "#MA36680349",
+    "name": "Monstera Artificial Decorative Foliage 53inch Green - 25X25X53",
+    "type": "plant",
+    "image": "assets/decorative_accessories/plant_1.png",
+    "colors": ["green"],
+    "price": 67.16,
+    "rate": 3.3,
+    "totalReview": 7,
+    "details": " The plant doesn't require regular watering or maintenance, except for occasional washing to get rid of accumulated dust. Using a soft brush or slightly damp cloth also works. This decorative foliage stands 53inch high."
+  },
+  {
+    "sku": "#PG18679045",
+    "name": "Pure Garden 52-inch Giant Agave Floor Plant",
+    "type": "plant",
+    "image": "assets/decorative_accessories/plant_2.png",
+    "colors": [],
+    "price": 99.02,
+    "rate": 4.6,
+    "totalReview": 130,
+    "details": "Enhance your home, office or anywhere else with the Pure Garden Giant Agave Floor Plant. This amazing plant features17 leaves, full of the spiny lushness that burst forth from the thick trunk that rises from the included pot. You can always look forward to the rich green tones of the Giant Agave Tree for years to come, without water or care. It's a bold piece of decor that will definitely attract attention."
+  },
+  {
+    "sku": "#HA36836737",
+    "name": "Harney Artificial Tabletop Ficus Tree by Christopher Knight Home",
+    "type": "plant",
+    "image": "assets/decorative_accessories/plant_3.png",
+    "colors": [],
+    "price": 63.99,
+    "rate": 4.8,
+    "totalReview": 8,
+    "details": "Add a splash of greenery to your interior space without the need for a green thumb. Our artificial tabletop ficus tree is the perfect accent to your decor without the high maintenance of a real plant. Featuring full green foliage and sturdy stalks, this lifelike tree is sure to enhance your home with the look of fresh verdure. Tastefully crafted and pre-potted for convenience, our faux plant is ideal for decorating any empty spaces in your home with subtle style and modest looks."
+  },
+  {
+    "sku": "#TH36836737",
+    "name": "The Curated Nomad Merced Polystone Meditator Cold Cast",
+    "type": "statue-sculpture",
+    "image": "assets/decorative_accessories/statue_1.png",
+    "colors": [],
+    "price": 53.99,
+    "rate": 4.6,
+    "totalReview": 58,
+    "details": "If you are looking for low cost but rare to find elsewhere decor item to bring extra galore that could refresh the decor appeal of short spaces on tables or shelves, beautifully carved decoration."
+  },
+  {
+    "sku": "#CB18657871",
+    "name": "Carbon Loft Kellogg Gold Jacks Sculpture",
+    "type": "statue-sculpture",
+    "image": "assets/decorative_accessories/statue_2.png",
+    "colors": [],
+    "price": 38.49,
+    "rate": 4.8,
+    "totalReview": 56,
+    "details": "Liven up your home decor with these fun and playful goldtone jacks. In two different sizes, these aluminum jacks can be used as tabletop decor, paperweights, or even whimsical doorstops."
+  },
+  {
+    "sku": "#RM36616032",
+    "name": "Rodeo Home Beatrice Damask Cut Velvet Throw Pillow",
+    "type": "throw-pillow",
+    "image": "assets/throw_pillow/pillow_1.jpg",
+    "colors": [],
+    "price": 48.87,
+    "rate": 4.8,
+    "totalReview": 56,
+    "details": "Beatrice pillow features a sophisticated cut velvet damask design that brings out elegance and adds a royalty effect to your home. "
+  },
+  {
+    "sku": "#BN36616036",
+    "name": "Blazing Needles 44-inch Solid Twill Papasan Cushion",
+    "type": "throw-pillow",
+    "image": "assets/throw_pillow/pillow_2.jpg",
+    "colors": [],
+    "price": 49.87,
+    "rate": 4.8,
+    "totalReview": 56,
+    "details": "Beatrice pillow features a sophisticated cut velvet damask design that brings out elegance and adds a royalty effect to your home. "
+  },
+  {
+    "sku": "#KL29596012",
+    "name": "Kate and Laurel Minuette Decorative Framed Wall Mirror",
+    "type": "mirror-decor",
+    "image": "assets/mirror_decor/mirror_1.jpg",
+    "colors": ["sliver", "black", "gold", "white"],
+    "price": 122.99,
+    "rate": 4.8,
+    "totalReview": 56,
+    "details": "The Minuette wall mirror is the perfect way to expand your smaller spaces while also adding a timeless, beautiful accent piece. It features a glam, interlocking geometric frame, providing you with an eye-catching decor piece your friends and family won't want to miss."
+  },
+  {
+    "sku": "#MF34005403",
+    "name": "Modern Floor Mirror Full Length Mirror - 64x21",
+    "type": "mirror-decor",
+    "image": "assets/mirror_decor/mirror_2.jpg",
+    "colors": ["sliver", "black", "gold", "white"],
+    "price": 163.49,
+    "rate": 4.4,
+    "totalReview": 20,
+    "details": "Full Length Mirror / Floor Mirror is an eye catching addition to any modern suite, simple, classic, aesthetic styling. "
+  },
+  {
+    "sku": "#CG34776254",
+    "name": "Copper Grove Limon 64-inch Retro Goldtone Full-length Floor Mirror - 64.17x21.26",
+    "type": "mirror-decor",
+    "image": "assets/mirror_decor/mirror_3.jpg",
+    "colors":[],
+    "price": 152.09,
+    "rate": 4.4,
+    "totalReview": 20,
+    "details": "Full-Length Mirror / Floor Mirror is an eye-catching addition to any modern suite, simple, classic, aesthetic styling. Apply to your living room, bedroom, hallway, entryway or bathroom, etc. It has a tilt bar behind it, which is adjustable for your perfect angle. "
+  }
+]

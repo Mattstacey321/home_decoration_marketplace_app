@@ -8,15 +8,29 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  bot_toast: 3.0.5
+  get: 3.24.0
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.1
+  flutter_spinkit: ^4.1.2+1
+  google_fonts: ^1.1.1
+  eva_icons_flutter: ^2.0.1
+  flutter_rating_bar: ^3.2.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_test:
     sdk: flutter
+  pedantic: ^1.10.0-nullsafety
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
+    - assets/decorative_accessories/
+    - assets/light_decor/
+    - assets/mirror_decor/
+    - assets/throw_pillow/
+    - assets/wall_decor/
